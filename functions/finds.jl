@@ -11,3 +11,7 @@ i = findfirst(isover500, arr)
 
 j = @show findlast(isover500, arr)
 @show findprev(isover500, arr, j)
+
+@show findfirst(isequal('o'), "Hello, world.")
+
+@show occursin("world", "Hello, world")
